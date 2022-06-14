@@ -1,0 +1,14 @@
+HOLE 1   1.0   *  Mn K edge
+*         mphase,mpath,mfeff,mchi
+CONTROL   1      1     1     1
+PRINT     1      0     0     0
+
+SCF        6.0 1
+EXCHANGE 0 0 0.0
+* FMS 10.0 1
+RPATH 7
+* XANES 5.0 0.05
+EXAFS
+* NLEG         4
+POTENTIALS
+*    ipot   Z  element
